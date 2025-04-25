@@ -20,7 +20,10 @@ int main() {
     printf("Insira o primeiro termo (a) : ");
     scanf("%f",&a);
 
-    
+    if (a < 0) {
+        printf("Nao e uma equacao do segundo grau");
+        return -1;
+    }
 
     printf("Insira o segundo termo (b): ");
     scanf("%f",&b);

@@ -24,4 +24,6 @@ int main(){
     else{
         printf("\nValores encontrados:\n- %d ao quadrado: %d\n- Raiz quadrada de %d: %.2f", x, qd, x, rz);
     }
+
+    return 0;
 }

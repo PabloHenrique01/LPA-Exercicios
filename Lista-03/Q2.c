@@ -28,4 +28,6 @@ int main (){
             printf("%.2f e maior que %.2f", b,a);
         }
     }
+
+    return 0;
 }

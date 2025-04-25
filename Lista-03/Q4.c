@@ -28,4 +28,6 @@ int main (){
     else{
         printf("Emprestimo concecido.");
     }
+
+    return 0;
 }
